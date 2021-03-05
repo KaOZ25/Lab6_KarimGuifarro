@@ -7,9 +7,10 @@ package lab6_karimguifarro;
 import java.util.*;
 
 public class Cliente {
-  private String Id,nombre,apellido,nacionalidad,trabajo,puesto,usuario,contraseña;
+  private String Id,nombre,apellido,nacionalidad,trabajo,puesto;
   private int dinero;
   private ArrayList <String> VIN=new ArrayList();
+  private String usuario,contraseña;
 
     public Cliente() {
     }
